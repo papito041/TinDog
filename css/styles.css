@@ -1,13 +1,20 @@
 #title {
     background-color: #ff4c68;
 }
+/*Sections*/
+.colored-section{
+    background-color: #ef8172;
+color: white;
+}
+.white-section{
+    background-color: white;
+    color: black;
 
+}
 /*Html Tags*/
-
 body {
     font-family: 'Montserrat';
 }
-
 h1,
 h2,
 h3,
@@ -16,62 +23,37 @@ h5,
 h6 {
     font-family: 'Montserrat-Black';
 }
-
-
 h3{
     font-size: 1,5rem;
 }
-
 /*Headings*/
-
 .big-title {
     font-size: 3.5rem;
-    line-height: 1.5;
-    color: white;
+    line-height: 1.5; 
 }
-
 .heading-text{
     font-size: 3rem;
     line-height: 1.5;
 }
-
-
-
-
-
-
-
-
-
 .container-fluid {
     padding: 3% 15% 7%;
 }
-
 /*Nav Bar*/
-
 .navbar-brand {
     font-size: 3.5rem;
-    color: white;
     font-family: 'Ubuntu Mono', monospace;
 }
-
 .nav-item {
     margin-inline-start: 50px;
     font-size: 1.4rem;
 }
-
 .navbar {
     padding: 0 0 5rem 0
 }
-
-
-
 /*Buttons*/
-
 .download-btn {
     margin: 5% 3% 5% 0%
 }
-
 /*Title*/
 .title-dog {
     transform: rotate(20deg);
@@ -81,124 +63,85 @@ h3{
 
 
 }
-
-
-
-
-
 /*Features*/
-
 .h3-features {
 
     font-size: 1.5rem;
     line-height: 1.5;
 
 }
-
 .features-p {
     color: #8f8f8f;
 
 
 }
-
-
 .features {
     position: relative;
     z-index: 1;
     padding: 7%;
-    background-color: white;
+   
 }
-
 .features-icon {
     padding: 1rem;
     color: #ef8172;
 }
-
 .features-icon:hover {
     color: #ff4c68;
 }
-
 .features-div {
     padding: 7%;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
 /*Testimonials*/
-
 .card-text{
     font-size: 3rem;
     line-height: 1.5;
 }
-
 .testimonial-text{
     font-size: 3rem;
     line-height: 1.5;
 }
-
-#testimonials {
-
-    background-color: #ef8172;
+#testimonials { 
     text-align: center;
-    color: white;
 }
-
 .testimonial-img {
     width: 10%;
     border-radius: 100%;
     margin: 3%;
 }
-
 .carousel-item {
     padding: 7% 15%;
 }
-
 /*Press*/
 #press {
-    background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }
-
 .press-img {
     width: 15%;
     margin: 20px 20px 50px
 }
-
 /*Pricing*/
-
 #pricing {
     padding: 5%;
     text-align: center;
 }
-
 .card {
     text-align: center;
 }
-
 .btn-pricing {
     width: 100%;
 
 }
-
 .card-deck {
     border: solid 3px black;
     line-height: 2;
 }
-
 .col-pricing {
     padding: 3%;
 }
 
 /*title*/
-
 @media (max-width:990px) {
     .title-dog {
         position: relative;
@@ -218,51 +161,36 @@ h3{
         margin-inline-start: 50%;
     }
 }
-
 /*Call to action*/
-
 #cta {
-    background-color: #ff4c68;
     padding: 7% 15%;
     text-align: center;
 }
-
 .cta-btn {
     margin-inline-end: 5%;
     margin-top: 7%;
 
 }
-
 .cta-txt {
     font-family: "Montserrat-Black";
     font-size: 4rem;
-    color: white;
 }
 
 /*Footer*/
-
-#footer {
-    background-color: white;
-}
-
 .footer-div {
     padding: 100px;
     text-align: center;
 }
-
 .footer-i {
     margin-inline-end: 20px;
 
 }
-
 .footer-p {
     margin-top: 3%;
 }
-
-.footer-a {
+.footer-a{
     color: black;
 }
-
 .footer-a:hover {
     color: #ef8172;
 }
